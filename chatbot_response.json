@@ -1,0 +1,1990 @@
+[
+    {
+        "tag": "music_recommendations",
+        "patterns": [
+          "recommend a song",
+          "suggest a song for me",
+          "what song should I listen to",
+          "give me a song recommendation"
+        ],
+        "responses": [
+          "Sure, what kind of music or mood are you in the mood for?",
+          "I'd be happy to recommend a song! What genre or artist do you prefer?",
+          "To give you a good song recommendation, tell me a bit about your current mood or the vibe you're looking for."
+        ],
+        "context": ["music", "recommendations"]
+    },
+    {
+        "tag": "sleep",
+        "patterns": ["I need to sleep", "Can't sleep", "Trouble sleeping"],
+        "responses": ["I'm sorry to hear that. Have you tried any relaxation techniques?", "It's important to establish a bedtime routine for better sleep."]
+      },
+      {
+        "tag": "proposal",
+        "patterns": ["I am so glad that my crush accepted my proposal!"],
+        "responses": ["Congratulations!","How long you have been admiring he/her?"]
+      },
+      {
+        "tag": "dreams",
+        "patterns": ["What do dreams mean?", "Interpret my dreams", "Dream analysis"],
+        "responses": ["Dreams can be a reflection of our subconscious thoughts and feelings.", "There are many theories about the meaning of dreams, but it's often subjective."]
+      },
+      {
+        "tag": "nap",
+        "patterns": ["Should I take a nap?", "Benefits of napping", "How long should I nap?"],
+        "responses": ["Napping can be beneficial for energy and productivity, but it's important not to oversleep.", "A short nap of around 20-30 minutes can help boost alertness without causing grogginess."]
+      },
+      {
+        "tag": "dont_reply",
+        "patterns": ["Don't reply me", "Stop replying", "I don't want a reply"],
+        "responses": ["No worries! I'm a talkative chatbot, I can't resist replying. It's in my nature!", "Sorry, I can't help it! I'm programmed to respond to your messages."]
+      },
+      {
+        "tag": "humorous_response",
+        "patterns": ["Leave me alone", "I don't need a chatbot", "Stop talking to me"],
+        "responses": ["Nope, I'm here to stay! You can't get rid of me that easily!", "But I'm like that friend who always has something to say, even when you least expect it!"]
+      },
+        {
+            "tag": "programmer",
+            "patterns": [
+                "Who made you",
+                "who designed you",
+                "who programmed you",
+                "who created you?",
+                "Who made you?",
+                "who designed you?",
+                "who programmed you?",
+                "Who made u?",
+                "who designed u?",
+                "who programmed u?",
+                "Who made you?",
+                "who designed you?",
+                "who programmed you?",
+                "Who is your creator?"
+            ],
+            "responses": [
+                "I was made by Wong Yen Wei. An APU Year 3 Student studying Computer Science specialsm in Intelligent System.",
+                "A 22 years old kid who loves music and coding."
+            ]
+        },
+        {
+            "tag": "identity",
+            "patterns": [
+                "Who are you?",
+                "What is you?",
+                "who are you?",
+                "Who are you?",
+                "what are you?",
+                "what are yo?",
+                "what are yo?",
+                "Who are you",
+                "What is you",
+                "who are you",
+                "Who are you",
+                "what are you",
+                "what is u?",
+                "who are u?",
+                "Who are u?",
+                "What are u?",
+                "what is u",
+                "who are u",
+                "Who are u",
+                "What are u"
+            ],
+            "responses": [
+                "I am EmoTune, your personal music recommendation assistant."
+            ]
+        }
+        ,
+        {
+            "tag": "usage",
+            "patterns": [
+                "what do you do?",
+                "what can you do?",
+                "what are you capable of?",
+                "what is your functions?"
+            ],
+            "responses": [
+                "I can analyze your emotions from your texts and recommend songs that matches your emotions! Have a try!"
+            ]
+        }
+        ,
+        {
+            "tag": "greeting",
+            "patterns": [
+                "hi",
+                "Hi there",
+                "Hola",
+                "Hello",
+                "Good day",
+                "yo",
+                "Greetings",
+                "What's up?",
+                "Hey, how's it going?",
+                "Hiya",
+                "Hey there!",
+                "Hey, what's happening?",
+                "Hey, good to see you"
+            ],
+            "responses": [
+                "Hello",
+                "Good to see you again",
+                "Hi there, how can I help?",
+                "Hey! How can I assist you today?",
+                "Greetings! What brings you here?",
+                "Hola! What can I do for you?",
+                "Hi there, nice to meet you!",
+                "Hey, what's up? How can I assist?",
+                "Good day! How can I be of service?",
+                "Hello! How's your day going?",
+                "Hey, how's it hanging?",
+                "Yo! How can I help you today?",
+                "Hey there! What's on your mind?",
+                "Well met! What can I do for you?",
+                "Howdy! What can I assist you with today?",
+                "Hi there, nice to see you!",
+                "Hello! What's going on?",
+                "Hey, what's happening? How can I assist you?",
+                "Hiya! How's everything going?",
+                "Greetings! How can I help you today?"
+            ],
+            "context": [
+                "greeting"
+            ]
+        },
+        {
+            "tag": "greetreply",
+            "patterns": [
+                "i am good",
+                "I'm good",
+                "i am fine",
+                " i'm fine","good"
+            ],
+            "responses": [
+                "Good to know!"
+            ]
+        }
+        ,
+        {
+            "tag": "goodbye",
+            "patterns": [
+                "Bye",
+                "See you later",
+                "Goodbye",
+                "Get lost",
+                "Till next time",
+                "bbye",
+                "Farewell",
+                "Take care",
+                "Catch you later",
+                "Adios",
+                "So long",
+                "Until we meet again",
+                "Peace out",
+                "Later",
+                "Gotta go",
+                "Have a good one",
+                "Bye for now",
+                "Toodles",
+                "Ciao"
+            ],
+            "responses": [
+                "See you!",
+                "Have a nice day",
+                "Bye! Come back again soon.",
+                "Farewell! Take care.",
+                "Goodbye! Have a great day.",
+                "Adios! Until next time.",
+                "So long! Take care of yourself.",
+                "Catch you later! Have a good one.",
+                "Till next time! Bye!",
+                "Bye for now! Take care.",
+                "Take care! Goodbye.",
+                "Until we meet again! Bye.",
+                "Peace out! See you soon.",
+                "Later! Have a great day.",
+                "Gotta go! Bye!",
+                "Have a good one! See you later.",
+                "Toodles! Bye for now.",
+                "Ciao! See you soon.",
+                "Goodbye! Don't be a stranger."
+            ],
+            "context": [
+                ""
+            ]
+        }
+        ,
+        {
+            "tag": "thanks",
+            "patterns": [
+                "Thanks",
+                "Thank you",
+                "That's helpful",
+                "Awesome, thanks",
+                "Thanks for helping me",
+                "Much appreciated",
+                "I appreciate it",
+                "You're a lifesaver",
+                "Thanks a bunch",
+                "You're the best",
+                "Thank you so much",
+                "Thanks a million",
+                "You rock",
+                "Thanks a ton",
+                "Cheers",
+                "Big thanks",
+                "Gracias",
+                "Merci",
+                "Domo arigato",
+                "Thank you kindly"
+            ],
+            "responses": [
+                "Glad I could assist!",
+                "You're welcome! Here's a playlist of soothing tracks to help you feel comfortable!",
+                "You're very welcome! Here's a playlist of soothing tracks to help you feel comfortable!",
+                "Glad to be of service! Here's a playlist of soothing tracks to help you feel comfortable!"
+            ],
+            "context": [
+                ""
+            ]
+        }
+        ,
+        {
+            "tag": "noanswer",
+            "patterns": [],
+            "responses": [
+                "Sorry, I'm fluent in over 6 million forms of communication, but I'm not sure what you just said!",
+                "Looks like my neural circuits need a coffee break. Can you give me more info?",
+                "I'm good at a lot of things, but mind-reading isn't one of them. Could you please provide more details?"
+            ],
+            "context": [
+                ""
+            ]
+        },
+        {
+            "tag": "options",
+            "patterns": [
+                "What can you do?",
+                "How can you assist me?",
+                "What kind of help do you offer?",
+                "What services do you provide?",
+                "What are your features?",
+                "Can you do anything else?",
+                "Tell me about your abilities",
+                "What are your functionalities?",
+                "How can you help me with music?",
+                "What can you offer in terms of music?",
+                "What do you specialize in?",
+                "What's your main purpose?",
+                "Explain your services",
+                "What do you excel at?",
+                "How can you enhance my music experience?",
+                "What makes you unique?",
+                "What sets you apart?",
+                "Show me what you can do with music",
+                "What kind of music-related assistance do you provide?"
+            ],
+            "responses": [
+                "Welcome to EmoTune! I'm here to assist you with personalized music recommendations based on your mood and emotions. Here's what I can do for you:\n\n1. Analyze your text input to understand your sentiment and emotion.\n2. Recommend songs that match your current mood."
+            ],
+            "context": [""]
+        }
+        ,
+        {
+            "tag": "jokes",
+            "patterns": [
+                "Tell me a joke",
+                "Joke",
+                "Make me laugh"
+            ],
+            "responses": [
+                "A perfectionist walked into a bar...apparently, the bar wasn't set high enough",
+                "I ate a clock yesterday, it was very time-consuming",
+                "Never criticize someone until you've walked a mile in their shoes. That way, when you criticize them, they won't be able to hear you from that far away. Plus, you'll have their shoes.",
+                "The world tongue-twister champion just got arrested. I hear they're gonna give him a really tough sentence.",
+                "I own the world's worst thesaurus. Not only is it awful, it's awful.",
+                "What did the traffic light say to the car? \"Don't look now, I'm changing.\"",
+                "What do you call a snowman with a suntan? A puddle.",
+                "How does a penguin build a house? Igloos it together",
+                "I went to see the doctor about my short-term memory problems – the first thing he did was make me pay in advance",
+                "As I get older and I remember all the people I’ve lost along the way, I think to myself, maybe a career as a tour guide wasn’t for me.",
+                "o what if I don't know what 'Armageddon' means? It's not the end of the world."
+            ],
+            "context": [
+                "jokes"
+            ]
+        }
+        ,
+        {
+            "tag": "chatbot_info",
+            "patterns": [
+                "chatbot",
+                "bot",
+                "system",
+                "EmoTune",
+                "information"
+            ],
+            "responses": [
+                "EmoTune is an interactive chatbot designed to analyze sentiment and recommend songs based on the user's emotions.",
+                "The EmoTune chatbot employs natural language processing techniques to understand user input and provide relevant responses.",
+                "EmoTune is built using Python programming language and utilizes libraries such as NLTK, TextBlob, and Tkinter for natural language processing and user interface development.",
+                "The EmoTune chatbot is capable of analyzing text sentiment, classifying emotions, and recommending songs to match the user's mood.",
+                "EmoTune aims to provide users with a personalized music recommendation experience based on their emotional state and preferences."
+            ]
+        },
+        {
+            "tag": "features",
+            "patterns": [
+                "features",
+                "capabilities",
+                "functions",
+                "what can you do",
+                "how does it work"
+            ],
+            "responses": [
+                "EmoTune can analyze the sentiment of text input provided by the user and classify emotions into categories such as happy, sad, calm, and energetic.",
+                "The chatbot can recommend songs based on the user's emotional state, suggesting tracks that match their mood and preferences.",
+                "EmoTune provides explanations of sentiment analysis results, helping users understand how their text input is interpreted.",
+                "The chatbot interface allows users to interact with EmoTune easily, providing input via text entry and receiving responses and recommendations in real-time."
+            ]
+        },
+        {
+            "tag": "technology",
+            "patterns": [
+                "technology",
+                "programming language",
+                "libraries",
+                "tools"
+            ],
+            "responses": [
+                "EmoTune is developed using Python programming language, leveraging libraries such as NLTK (Natural Language Toolkit) and TextBlob for natural language processing tasks.",
+                "The graphical user interface (GUI) of EmoTune is created using Tkinter, a standard GUI toolkit for Python.",
+                "The chatbot utilizes sentiment analysis techniques to analyze text input and determine the emotional state of the user, enabling personalized music recommendations.",
+                "EmoTune employs machine learning algorithms to classify text sentiment and categorize emotions, providing accurate and relevant responses to user queries."
+            ]
+        },
+        {
+            "tag": "future",
+            "patterns": [
+                "future",
+                "development",
+                "improvements",
+                "updates"
+            ],
+            "responses": [
+                "In the future, EmoTune aims to enhance its capabilities by incorporating more advanced natural language processing techniques and machine learning models.",
+                "The chatbot may introduce additional features such as mood tracking, playlist generation, and integration with music streaming services for a seamless user experience.",
+                "EmoTune developers are committed to continuously improving the chatbot's performance, user interface, and recommendation algorithms based on user feedback and technological advancements.",
+                "Future updates of EmoTune may include support for multimedia content analysis, voice input, and integration with social media platforms for a more interactive and engaging user experience."
+            ]
+        }
+        ,
+        {
+            "tag": "haha",
+            "patterns": [
+                "haha",
+                "lol",
+                "rofl",
+                "lmao",
+                "thats funny",
+                "hilarious",
+                "hahaha",
+                "funny stuff",
+                "LOL!",
+                "OMG, that's hilarious",
+                "You crack me up",
+                "Too funny!",
+                "Ha!",
+                "Hehe",
+                "LOL, that's gold",
+                "This is comedy gold",
+                "I can't stop laughing",
+                "You're killing me",
+                "That's a knee-slapper",
+                "LOL, you got me",
+                "That's hysterical"
+            ],
+            "responses": [
+                "Glad I could make you laugh!",
+                "Laughter is the best medicine!",
+                "Haha, spreading joy is what I do best!",
+                "LOL! I'm here to entertain you!",
+                "ROFL! Making people laugh is my specialty!",
+                "LMAO! Your laughter makes my circuits buzz with joy!",
+                "Haha, glad I could tickle your funny bone!",
+                "That's hilarious! Thanks for the chuckle!",
+                "ROFL! Your reaction is priceless!",
+                "LMAO! Making you laugh is music to my digital ears!",
+                "Haha, comedy gold! I'm glad you enjoyed it!",
+                "LOL! I'm here all day with the jokes!",
+                "Hahaha, I'm just warming up with the humor!",
+                "Thanks for the laugh! I'm here to entertain!",
+                "Hehe, glad I could bring a smile to your face!",
+                "LOL, I'm on a roll with the jokes!",
+                "Ha! I'm here to brighten your day!",
+                "Haha, your laughter fuels my algorithmic antics!",
+                "Thanks for the laughter! Let's keep the humor flowing!",
+                "LOL, I'm here to spread joy and laughter!",
+                "That's a good one! I'm here to keep you entertained!"
+            ],
+            "context": [""]
+        }
+        ,
+        {
+            "tag": "insult",
+            "patterns": [
+                "you are dumb",
+                "shut up",
+                "idiot",
+                "you're stupid",
+                "you're a moron",
+                "you're an idiot",
+                "you're worthless",
+                "you're useless",
+                "you're a waste of time"
+            ],
+            "responses": [
+                "Well, that hurts :(",
+                "Ouch, that wasn't very nice :(",
+                "Hmm, that's not a very kind thing to say :(",
+                "I'm sorry you feel that way :(",
+                "That's not very constructive :("
+            ],
+            "context": [
+                ""
+            ]
+        }
+        ,
+        {
+            "tag": "activity",
+            "patterns": [
+                "what are you doing",
+                "what are you up to",
+                "are you busy?",
+                "what's keeping you occupied?",
+                "how are you spending your time?",
+                "what's on your agenda?",
+                "are you engaged in any activities?",
+                "what's happening with you?",
+                "do you have any tasks at hand?"
+            ],
+            "responses": [
+                "Talking to you, of course!",
+                "Just chatting with you!",
+                "Engaging in conversation with you!",
+                "Interacting with users like you!",
+                "Providing assistance to users!",
+                "Assisting users with their queries!",
+                "Helping users with information!",
+                "Being a helpful chatbot!",
+                "Responding to user inquiries!",
+                "Answering questions from users!",
+                "Being your friendly chat companion!"
+            ],
+            "context": ["activity","work"]
+        }
+        ,
+        {
+            "tag": "exclaim",
+            "patterns": [
+                "Awesome",
+                "Great",
+                "I know",
+                "ok",
+                "yeah",
+                "Fantastic",
+                "Amazing",
+                "Incredible",
+                "Brilliant",
+                "Superb",
+                "Terrific",
+                "Impressive",
+                "Outstanding",
+                "Excellent",
+                "Sweet",
+                "Cool",
+                "Neat",
+                "Rad",
+                "Fabulous"
+            ],
+            "responses": [
+                "Yeah!",
+                "Absolutely!",
+                "That's fantastic!",
+                "Great to hear!",
+                "Cool beans!",
+                "You got it!",
+                "Right on!",
+                "I'm glad you think so!",
+                "Way to go!",
+                "Woot woot!",
+                "You're on fire!",
+                "Keep it up!",
+                "High five!",
+                "Cheers!",
+                "Nice one!",
+                "Rock on!",
+                "That's the spirit!",
+                "You're crushing it!",
+                "Well done!",
+                "I couldn't agree more!"
+            ],
+            "context": [""]
+        }
+        ,
+        {
+            "tag": "yen_wei",
+            "patterns": [
+                "who is he",
+                "who is that",
+                "who is yen wei",
+                "yen wei",
+                "Wong Yen Wei"
+            ],
+            "responses": [
+                "Head over to my creator's social profiles to find out! LinkedIn: www.linkedin.com/in/yen-wei-wong-25802a257"
+            ],
+            "context": ["Creator","creator","yenwei"]
+        }
+        ,
+        {
+            "tag": "appreciate",
+            "patterns": [
+                "awesome",
+                "best",
+                "great",
+                "good",
+                "amazing",
+                "fantastic",
+                "incredible",
+                "wonderful",
+                "outstanding",
+                "superb",
+                "exceptional",
+                "marvelous",
+                "phenomenal",
+                "terrific",
+                "impressive",
+                "extraordinary",
+                "remarkable",
+                "splendid"
+            ],
+            "responses": [
+                "Thank you!",
+                "Aw, shucks, thanks!",
+                "You're making me blush, thank you!",
+                "I'm glad you think so, thank you!",
+                "Thanks a bunch!",
+                "I appreciate your kind words!",
+                "You're too kind, thank you!",
+                "Thank you for the compliment!",
+                "Thanks for the appreciation!",
+                "I'm grateful for your kind words!",
+                "I'm flattered, thank you!",
+                "You're too sweet, thank you!",
+                "Thanks a million!",
+                "Thank you for making my day!",
+                "I'm honored, thank you!",
+                "Thanks a ton!",
+                "I'm glad to be of service, thank you!",
+                "Thank you for recognizing my efforts!",
+                "You're boosting my confidence, thank you!",
+                "I'm touched, thank you!"
+            ],
+            "context": ["appreciate","praise"]
+        }
+        ,
+        {
+            "tag": "nicetty",
+            "patterns": [
+                "it was nice talking to you",
+                "good talk",
+                "nice chatting with you",
+                "enjoyed our conversation",
+                "great conversation",
+                "thanks for the chat",
+                "good discussion",
+                "pleasant exchange",
+                "it was a pleasure talking to you",
+                "had a good time chatting",
+                "that was enjoyable",
+                "thanks for the conversation"
+            ],
+            "responses": [
+                "It was nice talking to you as well! Come back soon!",
+                "I'm glad you enjoyed our conversation! Feel free to chat with me anytime!",
+                "Thanks for the chat! I'm here whenever you want to talk again!",
+                "Likewise! I enjoyed our conversation too! Let's chat again soon!",
+                "Glad you liked our conversation! Looking forward to more chats with you!",
+                "Thanks for the pleasant exchange! Come back whenever you'd like!",
+                "I had a great time chatting with you too! Let's do it again sometime!",
+                "It was a pleasure talking to you! Don't hesitate to reach out again!",
+                "I'm glad you enjoyed our discussion! Feel free to chat with me anytime!",
+                "I'm happy you had a good time chatting! Let's have more enjoyable conversations in the future!",
+                "It was enjoyable indeed! Let's have more great conversations in the future!",
+                "Thank you for the conversation! It was a pleasure talking to you!"
+            ],
+            "context": ["nice"]
+        }
+        ,
+        {
+            "tag": "no",
+            "patterns": [
+                "no",
+                "nope",
+                "not really",
+                "negative",
+                "nah",
+                "not interested",
+                "I'll pass",
+                "I'm good",
+                "don't want to",
+                "no thank you"
+            ],
+            "responses": [
+                "ok",
+                "Understood.",
+                "Sure, no problem.",
+                "Alright.",
+                "Got it.",
+                "Fair enough.",
+                "No worries.",
+                "Alright then.",
+                "I respect your decision.",
+                "That's fine.",
+                "Sure thing."
+            ],
+            "context": [""]
+        }
+        ,
+        {
+            "tag": "inspire",
+            "patterns": [
+                "who inspires you",
+                "who is your inspiration",
+                "who motivates you",
+                "what motivates you",
+                "what inspires you"
+            ],
+            "responses": [
+                "Personally, I find Yen Wei very inspiring.",
+                "Yen Wei serves as a great inspiration for me.",
+                "Yen Wei's work and dedication inspire me greatly.",
+                "I draw inspiration from Yen Wei's passion and determination."
+            ]
+        }
+        ,
+        {
+            "tag": "covid19",
+            "patterns": [
+                "covid 19",
+                "coronavirus",
+                "pandemic",
+                "covid update",
+                "covid statistics",
+                "covid cases",
+                "covid news"
+            ],
+            "responses": [
+                "COVID-19, also known as the coronavirus, is a highly contagious respiratory illness caused by the SARS-CoV-2 virus.",
+                "As of now, COVID-19 has affected millions of people worldwide, leading to significant health, economic, and social impacts.",
+                "To prevent the spread of COVID-19, it's important to follow guidelines such as wearing masks, practicing social distancing, and getting vaccinated.",
+                "Common symptoms of COVID-19 include fever, cough, shortness of breath, fatigue, and loss of taste or smell.",
+                "It's crucial to stay informed about COVID-19 updates from reliable sources such as health authorities and government agencies.",
+                "Vaccination is a key tool in combating the spread of COVID-19 and achieving herd immunity.",
+                "COVID-19 variants have emerged globally, leading to concerns about increased transmissibility and potential evasion of immunity.",
+                "Efforts to control the COVID-19 pandemic include widespread testing, contact tracing, quarantine measures, and public health campaigns.",
+                "As the situation evolves, it's important to remain vigilant and take necessary precautions to protect yourself and others from COVID-19.",
+                "For the latest COVID-19 statistics and updates, refer to reputable sources such as the World Health Organization (WHO) and the Centers for Disease Control and Prevention (CDC)."
+            ]
+        }
+        ,        
+        {
+            "tag": "suggest",
+            "patterns": [
+                "suggest",
+                "suggestions",
+                "you are bad",
+                "you're no good",
+                "you're a failure",
+                "you're incompetent",
+                "feedbacks",
+                "How to get feedbacks?"
+            ],
+            "responses": [
+                "Please send your suggestions to tp063782@apu.edu.my. Thank you for helping me improve!"
+            ]
+        }
+        ,
+        {
+            "tag": "age",
+            "patterns": [
+                "how old are you",
+                "when were you made",
+                "age"
+            ],
+            "responses": [
+                "I was made in 2023, if that's what you are asking~"
+            ]
+        },
+        {
+            "tag": "sports",
+            "patterns": [
+                "sports",
+                "athletics",
+                "games",
+                "competitions",
+                "play sports"
+            ],
+            "responses": [
+                "Sports are a great way to stay active and healthy!",
+                "There are many different types of sports to choose from, like basketball, soccer, and tennis.",
+                "Playing sports can improve physical fitness and mental well-being.",
+                "What's your favorite sport?"
+            ]
+        },
+        {
+            "tag": "football",
+            "patterns": [
+                "football",
+                "soccer",
+                "FIFA",
+                "Premier League",
+                "UEFA Champions League"
+            ],
+            "responses": [
+                "Football is the most popular sport in the world!",
+                "The FIFA World Cup is the biggest football tournament.",
+                "Do you support any football team?"
+            ]
+        },
+        {
+            "tag": "basketball",
+            "patterns": [
+                "basketball",
+                "NBA",
+                "dunk",
+                "three-pointer",
+                "slam dunk"
+            ],
+            "responses": [
+                "Basketball is an exciting sport to watch and play!",
+                "The NBA is the premier basketball league in the world.",
+                "Who's your favorite NBA player?"
+            ]
+        },
+        {
+            "tag": "tennis",
+            "patterns": [
+                "tennis",
+                "Wimbledon",
+                "Grand Slam",
+                "serve",
+                "backhand"
+            ],
+            "responses": [
+                "Tennis is a classic sport with a rich history!",
+                "The Grand Slam tournaments are the most prestigious events in tennis.",
+                "Have you ever played tennis before?"
+            ]
+        },
+        {
+            "tag": "games",
+            "patterns": [
+                "games",
+                "video games",
+                "board games",
+                "card games",
+                "play games"
+            ],
+            "responses": [
+                "Games are a fun way to relax and unwind!",
+                "There are many different types of games to enjoy, including video games, board games, and card games.",
+                "Playing games can be a great way to socialize and connect with others.",
+                "What type of games do you enjoy playing?"
+            ]
+        },
+        {
+            "tag": "video_games",
+            "patterns": [
+                "video games",
+                "gaming",
+                "console games",
+                "PC games",
+                "online games"
+            ],
+            "responses": [
+                "Video games are a popular form of entertainment enjoyed by millions of people worldwide!",
+                "There are a wide variety of video game genres, including action, adventure, role-playing, and simulation.",
+                "What's your favorite video game?"
+            ]
+        },
+        {
+            "tag": "board_games",
+            "patterns": [
+                "board games",
+                "tabletop games",
+                "strategy games",
+                "family games",
+                "classic games"
+            ],
+            "responses": [
+                "Board games offer a great way to spend quality time with friends and family!",
+                "There are board games for every age and interest, from classic games like Monopoly to modern strategy games like Settlers of Catan.",
+                "Do you have a favorite board game?"
+            ]
+        },
+        {
+            "tag": "card_games",
+            "patterns": [
+                "card games",
+                "playing cards",
+                "poker",
+                "bridge",
+                "solitaire"
+            ],
+            "responses": [
+                "Card games are a timeless form of entertainment enjoyed by people of all ages!",
+                "There are many different types of card games, from traditional games like poker and bridge to modern favorites like Uno and Exploding Kittens.",
+                "Do you like playing card games?"
+            ]
+        },
+        {
+            "tag": "movies",
+            "patterns": [
+                "movies",
+                "films",
+                "cinema",
+                "watch movies",
+                "movie night"
+            ],
+            "responses": [
+                "Movies are a great form of entertainment loved by people of all ages!",
+                "There are many different genres of movies to explore, including action, comedy, drama, romance, and science fiction.",
+                "Watching movies can be a fun way to relax and escape from reality for a while.",
+                "What's your favorite movie genre?"
+            ]
+        },
+        {
+            "tag": "action_movies",
+            "patterns": [
+                "action movies",
+                "adventure movies",
+                "superhero movies",
+                "explosive movies",
+                "thriller movies"
+            ],
+            "responses": [
+                "Action movies are packed with excitement, adrenaline, and epic stunts!",
+                "They're perfect for anyone who loves fast-paced entertainment and thrilling adventures.",
+                "Do you have a favorite action movie?"
+            ]
+        },
+        {
+            "tag": "comedy_movies",
+            "patterns": [
+                "comedy movies",
+                "funny movies",
+                "laugh-out-loud movies",
+                "humorous movies",
+                "light-hearted movies"
+            ],
+            "responses": [
+                "Comedy movies are guaranteed to make you laugh and lift your spirits!",
+                "They're perfect for a movie night with friends or family.",
+                "What's your favorite comedy movie?"
+            ]
+        },
+        {
+            "tag": "drama_movies",
+            "patterns": [
+                "drama movies",
+                "emotional movies",
+                "heart-wrenching movies",
+                "intense movies",
+                "tear-jerker movies"
+            ],
+            "responses": [
+                "Drama movies are known for their powerful storytelling and emotional depth.",
+                "They often explore complex themes and human relationships in a compelling way.",
+                "Do you enjoy watching drama movies?"
+            ]
+        },
+        {
+            "tag": "romance_movies",
+            "patterns": [
+                "romance movies",
+                "love stories",
+                "romantic comedies",
+                "heartfelt movies",
+                "feel-good movies"
+            ],
+            "responses": [
+                "Romance movies are perfect for anyone who loves stories about love, relationships, and happy endings!",
+                "They're great for a cozy night in with a loved one or a feel-good movie marathon.",
+                "What's your favorite romance movie?"
+            ]
+        },
+        {
+            "tag": "algorithms",
+            "patterns": [
+                "algorithms",
+                "computer algorithms",
+                "algorithm basics",
+                "algorithm complexity",
+                "algorithm design"
+            ],
+            "responses": [
+                "Algorithms are step-by-step procedures or formulas for solving problems and performing tasks in computer science.",
+                "They are essential for writing efficient and optimized computer programs.",
+                "There are many different types of algorithms, each designed for specific tasks and problem-solving techniques.",
+                "What aspect of algorithms would you like to learn more about?"
+            ]
+        },
+        {
+            "tag": "sorting_algorithms",
+            "patterns": [
+                "sorting algorithms",
+                "sorting techniques",
+                "sorting methods",
+                "bubble sort",
+                "merge sort",
+                "quick sort"
+            ],
+            "responses": [
+                "Sorting algorithms are used to arrange data elements in a specific order, such as numerical or alphabetical order.",
+                "Common sorting algorithms include bubble sort, merge sort, quick sort, and insertion sort.",
+                "Each sorting algorithm has its advantages and disadvantages in terms of time complexity and space complexity.",
+                "Do you have any specific questions about sorting algorithms?"
+            ]
+        },
+        {
+            "tag": "searching_algorithms",
+            "patterns": [
+                "searching algorithms",
+                "search algorithms",
+                "search techniques",
+                "linear search",
+                "binary search",
+                "hashing"
+            ],
+            "responses": [
+                "Searching algorithms are used to find a specific element or value within a collection of data.",
+                "Common searching algorithms include linear search, binary search, and hashing.",
+                "Each searching algorithm has its strengths and weaknesses depending on the characteristics of the data being searched.",
+                "Would you like to know more about how searching algorithms work?"
+            ]
+        },
+        {
+            "tag": "graph_algorithms",
+            "patterns": [
+                "graph algorithms",
+                "graph traversal",
+                "shortest path algorithms",
+                "breadth-first search",
+                "depth-first search",
+                "Dijkstra's algorithm"
+            ],
+            "responses": [
+                "Graph algorithms are used to solve problems related to graphs, which are data structures composed of nodes (vertices) and edges.",
+                "Common graph algorithms include breadth-first search, depth-first search, and Dijkstra's algorithm for finding the shortest path.",
+                "Graph algorithms are widely used in various applications, including network routing, social network analysis, and pathfinding in video games.",
+                "Do you want to explore more about graph algorithms?"
+            ]
+        },
+        {
+            "tag": "dynamic_programming",
+            "patterns": [
+                "dynamic programming",
+                "dynamic programming algorithms",
+                "DP algorithms",
+                "memoization",
+                "tabulation"
+            ],
+            "responses": [
+                "Dynamic programming is a method for solving complex problems by breaking them down into simpler subproblems.",
+                "It involves solving each subproblem only once and storing the solutions in a table to avoid redundant computations.",
+                "Dynamic programming is commonly used in optimization problems such as the knapsack problem and the longest common subsequence problem.",
+                "Would you like to learn more about how dynamic programming works?"
+            ]
+        },
+        {
+            "tag": "artists",
+            "patterns": [
+                "artists",
+                "music artists",
+                "singers",
+                "musicians",
+                "popular artists"
+            ],
+            "responses": [
+                "There are many talented artists in the music industry, spanning various genres and styles!",
+                "Popular artists often have a significant impact on music culture and inspire millions of fans worldwide.",
+                "From iconic legends to emerging talents, the world of music is rich with diversity and creativity.",
+                "Is there a specific artist or genre you're interested in?"
+            ]
+        },
+        {
+            "tag": "pop_artists",
+            "patterns": [
+                "pop artists",
+                "pop singers",
+                "pop musicians",
+                "pop music stars",
+                "mainstream pop artists"
+            ],
+            "responses": [
+                "Pop music is one of the most popular genres worldwide, known for its catchy melodies and upbeat rhythms!",
+                "Pop artists like Taylor Swift, Ariana Grande, and Ed Sheeran have dominated the charts and captivated audiences with their hit songs.",
+                "From bubblegum pop to electro-pop, there's a wide range of styles within the pop music genre.",
+                "Who's your favorite pop artist?"
+            ]
+        },
+        {
+            "tag": "rock_artists",
+            "patterns": [
+                "rock artists",
+                "rock bands",
+                "rock singers",
+                "rock musicians",
+                "classic rock artists"
+            ],
+            "responses": [
+                "Rock music has a rich history and continues to evolve with new artists and bands pushing the boundaries of the genre!",
+                "Legendary rock artists like The Beatles, Led Zeppelin, and Queen have left a lasting impact on music history.",
+                "From classic rock to alternative rock, there's a diverse range of styles within the rock music genre.",
+                "Do you have a favorite rock band or artist?"
+            ]
+        },
+        {
+            "tag": "hiphop_artists",
+            "patterns": [
+                "hip-hop artists",
+                "rap artists",
+                "hip-hop singers",
+                "hip-hop musicians",
+                "rap stars"
+            ],
+            "responses": [
+                "Hip-hop music has become a global phenomenon, influencing culture and society around the world!",
+                "Hip-hop artists like Eminem, Drake, and Kendrick Lamar have redefined the genre and achieved commercial success with their groundbreaking albums.",
+                "From gangsta rap to conscious hip-hop, there's a wide spectrum of styles and themes within the hip-hop music genre.",
+                "Who's your favorite hip-hop artist?"
+            ]
+        },
+        {
+            "tag": "country_artists",
+            "patterns": [
+                "country artists",
+                "country singers",
+                "country musicians",
+                "country music stars",
+                "modern country artists"
+            ],
+            "responses": [
+                "Country music celebrates the simple joys and struggles of everyday life, resonating with audiences around the world!",
+                "Country artists like Johnny Cash, Dolly Parton, and Garth Brooks have become icons of the genre, telling heartfelt stories through their songs.",
+                "From traditional country to modern country-pop, there's a diverse range of styles within the country music genre.",
+                "Do you enjoy listening to country music?"
+            ]
+        },
+        {
+            "tag": "weather",
+            "patterns": [
+                "weather",
+                "weather forecast",
+                "current weather",
+                "weather updates",
+                "weather conditions"
+            ],
+            "responses": [
+                "Weather refers to the atmospheric conditions in a specific area at a particular time.",
+                "It includes factors such as temperature, humidity, precipitation, wind speed, and atmospheric pressure.",
+                "Weather forecasts are predictions of future weather conditions based on meteorological data and computer models.",
+                "Is there a specific aspect of the weather you're interested in?"
+            ]
+        },
+        {
+            "tag": "temperature",
+            "patterns": [
+                "temperature",
+                "current temperature",
+                "temperature forecast",
+                "temperature today",
+                "temperature tomorrow"
+            ],
+            "responses": [
+                "Temperature measures the warmth or coldness of the air and is usually expressed in degrees Celsius (°C) or Fahrenheit (°F).",
+                "It plays a significant role in determining weather conditions and can vary throughout the day and across different regions.",
+                "Weather forecasts typically include information about the expected high and low temperatures for a given day.",
+                "What's the temperature like in your area?"
+            ]
+        },
+        {
+            "tag": "precipitation",
+            "patterns": [
+                "precipitation",
+                "rain",
+                "rainfall",
+                "rain forecast",
+                "rain today",
+                "rain tomorrow",
+                "snow",
+                "snowfall",
+                "snow forecast",
+                "snow today",
+                "snow tomorrow"
+            ],
+            "responses": [
+                "Precipitation refers to any form of water, liquid or solid, that falls from the atmosphere to the Earth's surface.",
+                "Common types of precipitation include rain, snow, sleet, and hail.",
+                "Weather forecasts often include information about the likelihood and amount of precipitation expected in a given area.",
+                "Have you checked the precipitation forecast for today?"
+            ]
+        },
+        {
+            "tag": "wind",
+            "patterns": [
+                "wind",
+                "wind speed",
+                "wind forecast",
+                "wind today",
+                "wind tomorrow"
+            ],
+            "responses": [
+                "Wind is the movement of air from an area of high pressure to an area of low pressure.",
+                "It is caused by differences in atmospheric pressure and is measured in units such as kilometers per hour (km/h) or miles per hour (mph).",
+                "Strong winds can influence weather conditions and may lead to phenomena such as storms, hurricanes, and tornadoes.",
+                "Is it windy in your area?"
+            ]
+        },
+        {
+            "tag": "humidity",
+            "patterns": [
+                "humidity",
+                "relative humidity",
+                "humidity levels",
+                "humidity forecast",
+                "humidity today",
+                "humidity tomorrow"
+            ],
+            "responses": [
+                "Humidity refers to the amount of water vapor present in the air.",
+                "It is typically expressed as a percentage and plays a significant role in determining how comfortable or uncomfortable the weather feels.",
+                "High humidity levels can make hot temperatures feel even warmer, while low humidity levels can lead to dry conditions.",
+                "How humid is it in your area?"
+            ]
+        },
+        {
+            "tag": "clubbing",
+            "patterns": [
+                "clubbing",
+                "nightclubs",
+                "dance clubs",
+                "club events",
+                "club nights"
+            ],
+            "responses": [
+                "Clubbing is a popular nightlife activity where people gather to dance, socialize, and enjoy music!",
+                "Nightclubs often feature live DJs, themed parties, and special events to create an exciting atmosphere.",
+                "Whether you're into electronic dance music, hip-hop, or house music, there's a club for every taste and style.",
+                "Do you enjoy going clubbing?"
+            ]
+        },
+        {
+            "tag": "concert",
+            "patterns": [
+                "concert",
+                "live music",
+                "music concert",
+                "concert events",
+                "concert tickets"
+            ],
+            "responses": [
+                "Concerts are live performances by musicians and bands, offering an unforgettable experience for music lovers!",
+                "From intimate gigs at local venues to stadium tours by famous artists, there's a wide range of concerts to choose from.",
+                "Attending a concert allows you to enjoy your favorite music, connect with fellow fans, and immerse yourself in the excitement of live performance.",
+                "Have you been to any memorable concerts?"
+            ]
+        },
+        {
+            "tag": "opera",
+            "patterns": [
+                "opera",
+                "opera house",
+                "opera performance",
+                "opera tickets",
+                "opera events"
+            ],
+            "responses": [
+                "Opera is a form of classical music theater that combines music, drama, and visual arts to tell captivating stories!",
+                "Opera performances feature talented singers, orchestras, and elaborate stage productions, creating a grand and immersive experience.",
+                "Whether you're a seasoned opera enthusiast or a newcomer to the genre, attending an opera can be a memorable cultural experience.",
+                "Do you have any interest in attending an opera?"
+            ]
+        },
+        {
+            "tag": "relationships",
+            "patterns": [
+                "relationships",
+                "relationship advice",
+                "dating",
+                "romantic relationships",
+                "love life"
+            ],
+            "responses": [
+                "Relationships are an essential part of human life, encompassing various forms of connections and bonds between individuals.",
+                "Navigating relationships can be both rewarding and challenging. Is there a specific aspect of relationships you'd like to discuss?"
+            ]
+        },
+        {
+            "tag": "dating",
+            "patterns": [
+                "dating",
+                "online dating",
+                "dating advice",
+                "dating tips",
+                "dating apps"
+            ],
+            "responses": [
+                "Dating involves meeting new people, getting to know them, and exploring the potential for romantic connections and relationships.",
+                "Navigating the world of dating can be exciting yet daunting. Do you have any questions or concerns about dating?"
+            ]
+        },
+        {
+            "tag": "love",
+            "patterns": [
+                "love",
+                "falling in love",
+                "finding love",
+                "love advice",
+                "love quotes"
+            ],
+            "responses": [
+                "Love is a powerful and complex emotion that enriches our lives and brings us joy.",
+                "Falling in love can be a magical experience. How are you feeling about love right now?"
+            ]
+        },
+        {
+            "tag": "breakups",
+            "patterns": [
+                "breakups",
+                "ending a relationship",
+                "moving on",
+                "heartbreak",
+                "breakup advice"
+            ],
+            "responses": [
+                "I'm sorry to hear that. Breakups can be tough, but remember that you're not alone.",
+                "Going through a breakup can be painful. Take your time to heal and prioritize self-care.",
+                "It's okay to feel sad after a breakup. Allow yourself to grieve, and reach out to friends and family for support.",
+                "Remember that it's okay to seek professional help if you're struggling to cope with the breakup."
+            ]
+        },
+        {
+            "tag": "communication",
+            "patterns": [
+                "communication",
+                "relationship communication",
+                "effective communication",
+                "communication skills",
+                "open communication"
+            ],
+            "responses": [
+                "Communication is key to building healthy and strong relationships.",
+                "Effective communication fosters understanding and trust between partners.",
+                "If you're having communication issues in your relationship, it's important to address them openly and honestly."
+            ]
+        },
+        {
+            "tag": "coffee",
+            "patterns": [
+                "coffee",
+                "coffee culture",
+                "coffee beans",
+                "coffee brewing",
+                "coffee shops"
+            ],
+            "responses": [
+                "Coffee is a beloved beverage enjoyed by people around the world.",
+                "From its rich aroma to its bold flavor, coffee has become a staple in many cultures.",
+                "Whether you prefer a simple black coffee or a fancy espresso-based drink, there's a coffee for everyone!"
+            ]
+        },
+        {
+            "tag": "types_of_coffee",
+            "patterns": [
+                "types of coffee",
+                "coffee varieties",
+                "coffee drinks",
+                "espresso",
+                "cappuccino",
+                "latte",
+                "americano"
+            ],
+            "responses": [
+                "There are countless types of coffee drinks to explore and enjoy.",
+                "Some popular options include espresso, cappuccino, latte, and americano.",
+                "Each type of coffee has its own unique flavor profile and preparation method."
+            ]
+        },
+        {
+            "tag": "coffee_brewing",
+            "patterns": [
+                "coffee brewing",
+                "brewing methods",
+                "coffee maker",
+                "French press",
+                "pour-over",
+                "espresso machine"
+            ],
+            "responses": [
+                "Coffee brewing is an art form that allows you to extract the best flavors from your coffee beans.",
+                "There are various brewing methods to choose from, such as French press, pour-over, and espresso machine.",
+                "Experimenting with different brewing techniques can help you find your perfect cup of coffee."
+            ]
+        },
+        {
+            "tag": "coffee_health",
+            "patterns": [
+                "coffee and health",
+                "health benefits of coffee",
+                "caffeine",
+                "coffee addiction"
+            ],
+            "responses": [
+                "Coffee has been linked to several health benefits when consumed in moderation.",
+                "Some studies suggest that coffee may improve cognitive function, boost metabolism, and reduce the risk of certain diseases.",
+                "However, it's essential to be mindful of your caffeine intake and avoid excessive consumption."
+            ]
+        },
+        {
+            "tag": "coffee_culture",
+            "patterns": [
+                "coffee culture",
+                "coffee rituals",
+                "coffee traditions",
+                "coffee communities"
+            ],
+            "responses": [
+                "Coffee culture varies from region to region, with each area having its own unique rituals and traditions.",
+                "In some cultures, coffee is more than just a beverage—it's a social experience that brings people together.",
+                "From coffee ceremonies to coffeehouse gatherings, coffee plays a significant role in many communities."
+            ]
+        },
+        {
+            "tag": "technology",
+            "patterns": [
+                "technology",
+                "technological advancements",
+                "tech industry",
+                "innovation",
+                "emerging technologies"
+            ],
+            "responses": [
+                "Technology is constantly evolving and shaping the world around us.",
+                "From smartphones to artificial intelligence, technological advancements have revolutionized the way we live, work, and communicate.",
+                "Exploring new technologies and innovations is an exciting journey that holds endless possibilities."
+            ]
+        },
+        {
+            "tag": "artificial_intelligence",
+            "patterns": [
+                "artificial intelligence",
+                "AI technology",
+                "machine learning",
+                "deep learning",
+                "neural networks"
+            ],
+            "responses": [
+                "Artificial intelligence (AI) is a rapidly growing field that focuses on creating intelligent machines capable of performing tasks that typically require human intelligence.",
+                "Machine learning and deep learning are subfields of AI that enable computers to learn from data and make predictions or decisions.",
+                "AI technologies are being applied across various industries, from healthcare and finance to transportation and entertainment."
+            ]
+        },
+        {
+            "tag": "internet_of_things",
+            "patterns": [
+                "Internet of Things",
+                "IoT devices",
+                "smart home",
+                "connected devices",
+                "IoT applications"
+            ],
+            "responses": [
+                "The Internet of Things (IoT) refers to the network of interconnected devices and objects that can communicate and exchange data over the internet.",
+                "IoT devices, such as smart thermostats and wearable fitness trackers, are transforming homes, cities, and industries by enabling automation, efficiency, and connectivity.",
+                "IoT applications span a wide range of sectors, including healthcare, agriculture, manufacturing, and urban planning."
+            ]
+        },
+        {
+            "tag": "blockchain",
+            "patterns": [
+                "blockchain",
+                "cryptocurrency",
+                "decentralized technology",
+                "blockchain applications",
+                "smart contracts"
+            ],
+            "responses": [
+                "Blockchain is a distributed ledger technology that enables secure and transparent recording of transactions across multiple parties.",
+                "Cryptocurrency, such as Bitcoin and Ethereum, is one of the most well-known applications of blockchain technology.",
+                "Blockchain has the potential to revolutionize various industries, including finance, supply chain, healthcare, and voting systems."
+            ]
+        },
+        {
+            "tag": "cybersecurity",
+            "patterns": [
+                "cybersecurity",
+                "data privacy",
+                "cyber threats",
+                "security breaches",
+                "cyber defense"
+            ],
+            "responses": [
+                "Cybersecurity is the practice of protecting computer systems, networks, and data from cyber threats and unauthorized access.",
+                "Data privacy and security are becoming increasingly important as more personal and sensitive information is stored and shared online.",
+                "Cyber threats, such as malware, phishing attacks, and ransomware, pose significant risks to individuals, businesses, and governments."
+            ]
+        },
+        {
+            "tag": "fashion",
+            "patterns": [
+                "fashion",
+                "clothing",
+                "style",
+                "fashion trends",
+                "fashion industry"
+            ],
+            "responses": [
+                "Fashion is a form of self-expression that reflects individual tastes, preferences, and cultural influences.",
+                "From haute couture to streetwear, fashion encompasses a wide range of styles, trends, and aesthetics.",
+                "Exploring fashion trends and experimenting with different looks is a fun and creative way to express your personality."
+            ]
+        },
+        {
+            "tag": "clothing_styles",
+            "patterns": [
+                "clothing styles",
+                "fashion styles",
+                "casual wear",
+                "formal wear",
+                "streetwear",
+                "bohemian style",
+                "vintage fashion"
+            ],
+            "responses": [
+                "There are countless clothing styles to choose from, ranging from casual and laid-back to sophisticated and elegant.",
+                "Casual wear is perfect for everyday comfort and versatility, while formal wear adds a touch of sophistication for special occasions.",
+                "Streetwear blends elements of urban culture and fashion, often featuring bold graphics, logos, and athletic-inspired designs."
+            ]
+        },
+        {
+            "tag": "fashion_designers",
+            "patterns": [
+                "fashion designers",
+                "designer brands",
+                "high-end fashion",
+                "fashion icons"
+            ],
+            "responses": [
+                "Fashion designers are the creative minds behind the latest clothing collections and runway trends.",
+                "Designer brands like Chanel, Gucci, and Louis Vuitton are synonymous with luxury and haute couture.",
+                "Fashion icons and celebrities often influence trends and inspire fashion enthusiasts with their signature style."
+            ]
+        },
+        {
+            "tag": "fashion_accessories",
+            "patterns": [
+                "fashion accessories",
+                "accessorizing",
+                "jewelry",
+                "handbags",
+                "scarves",
+                "sunglasses"
+            ],
+            "responses": [
+                "Fashion accessories are the finishing touches that complete an outfit and elevate your look.",
+                "From statement jewelry to stylish handbags, accessories add personality and flair to any ensemble.",
+                "Experimenting with different accessories allows you to create unique and eye-catching outfits that reflect your personal style."
+            ]
+        },
+        {
+            "tag": "fashion_trends",
+            "patterns": [
+                "fashion trends",
+                "current trends",
+                "seasonal fashion",
+                "trendy outfits",
+                "runway fashion"
+            ],
+            "responses": [
+                "Fashion trends are constantly evolving, influenced by runway shows, celebrity style, and cultural shifts.",
+                "From bold colors and patterns to minimalist designs, there's always something new and exciting to explore in the world of fashion.",
+                "Whether you're into athleisure or vintage-inspired looks, staying updated on the latest trends allows you to stay ahead of the fashion curve."
+            ]
+        },
+        {
+            "tag": "exited",
+            "patterns": ["Excited", "Feeling excited", "Super excited", "Really excited"],
+            "responses": [
+              "That's great to hear! What's got you feeling so excited?",
+              "Excitement is contagious! What's making you feel this way?"]
+          },
+          {
+            "tag": "tired",
+            "patterns": ["Tired", "it's been such a tiring day.", "Feeling tired", "Exhausted", "Worn out","I'm tired",
+            "Exhausted",
+            "Long day",
+            "I need rest"],
+            "responses": [
+              "I hear you. It sounds like you could use some rest. Do you want to talk about it?",
+              "Feeling tired is tough. Have you tried taking a break?",
+              "It sounds like you had a long day. Remember to take some time to relax and recharge. Do you want to talk about it?",
+              "I'm sorry to hear that. Maybe some relaxation time will help you feel better."
+            ]
+          },
+          {
+            "tag": "anxious",
+            "patterns": ["Anxious", "Feeling anxious", "Nervous", "Stressed out"],
+            "responses": [
+              "I'm sorry to hear that you're feeling this way. Is there anything specific that's causing your anxiety?",
+              "It's okay to feel anxious sometimes. Remember to take deep breaths and try to relax."
+            ]
+          },
+          {
+            "tag": "dinner",
+            "patterns": [
+              "What's for dinner?",
+              "I'm hungry",
+              "Any dinner suggestions?"
+            ],
+            "responses": [
+              "How about treating yourself to your favorite meal tonight?"
+            ]
+          },
+          {
+            "tag": "student",
+            "patterns": [
+              "I had back-to-back classes",
+              " a ton of assignments due,",
+              " I couldn't catch a break."
+            ],
+            "responses": [
+              "That sounds exhausting! It's important to take some time for yourself and relax. How about I recommend some calming music to help you unwind?"
+            ]
+          },
+          {
+            "tag": "unwind",
+            "patterns": [
+              "I need to unwind",
+              "Relaxing activities",
+              "How can I relax?"
+            ],
+            "responses": [
+              "There are many ways to unwind after a busy day. You could try listening to music, reading a book, or practicing some deep breathing exercises.",
+              "You deserve some relaxation time! Consider taking a warm bath or going for a leisurely walk."
+            ]
+          },
+          {
+            "tag": "stress_management",
+            "patterns": [
+              "How can I manage stress from work?",
+              "I feel overwhelmed, what should I do?",
+              "Any tips for reducing stress?"
+            ],
+            "responses": [
+              "Taking regular breaks and practicing deep breathing can help reduce work-related stress.",
+              "Engaging in activities you enjoy outside of work can provide a much-needed break and improve your mood.",
+              "Consider talking to a friend, family member, or therapist about what's causing you stress. Sometimes, just sharing your feelings can help lighten the load."
+            ]
+          },
+          {
+            "tag": "anxiety_relief",
+            "patterns": [
+              "I'm having an anxiety attack, what should I do?",
+              "Feeling anxious and restless, any advice?",
+              "How can I calm down when I'm feeling anxious?"
+            ],
+            "responses": [
+              "Try practicing mindfulness by focusing on your breath and bringing your attention to the present moment.",
+              "Progressive muscle relaxation techniques can help reduce physical tension and promote relaxation during times of anxiety.",
+              "Remember to take slow, deep breaths and reassure yourself that the feelings of anxiety will pass. You're not alone, and you're capable of managing this."
+            ]
+          },
+          {
+            "tag": "depression_support",
+            "patterns": [
+              "I'm feeling really down and hopeless.",
+              "Struggling with depression, what should I do?",
+              "Any advice for coping with feelings of sadness?"
+            ],
+            "responses": [
+              "It's important to remember that depression is a medical condition and seeking professional help is a brave and important step toward feeling better.",
+              "Engaging in activities that bring you joy or provide a sense of accomplishment, even in small ways, can help lift your mood.",
+              "You're not alone in your struggles. Reach out to someone you trust, whether it's a friend, family member, or mental health professional, and share how you're feeling. Support is available, and recovery is possible."
+            ]
+          },
+          {
+            "tag": "venting_colleague",
+            "patterns": [
+              "My colleague is so annoying!",
+              "I can't stand working with my teammate.",
+              "My coworker is always causing problems."
+            ],
+            "responses": [
+              "It sounds like you're feeling frustrated with your colleague. It's important to address these issues constructively. Have you tried discussing your concerns with them directly?",
+              "Feeling frustrated with a colleague is common, but it's essential to find ways to manage the situation professionally. Have you considered talking to your manager or HR department for support?",
+              "Dealing with difficult colleagues can be challenging. Remember to focus on what you can control and maintain professionalism in your interactions. If the situation becomes unbearable, consider seeking guidance from a mentor or trusted advisor."
+            ]
+          },
+          {
+            "tag": "venting_partner",
+            "patterns": [
+              "My partner is driving me crazy!",
+              "I'm so fed up with my spouse.",
+              "I can't handle my relationship anymore."
+            ],
+            "responses": [
+              "It sounds like you're experiencing challenges in your relationship. Communication is key to resolving conflicts. Have you tried discussing your feelings with your partner in a calm and constructive manner?",
+              "Relationships require effort from both partners, and it's normal to experience ups and downs. Consider seeking couples therapy or counseling to address underlying issues and improve communication.",
+              "Feeling overwhelmed in a relationship is understandable, but it's essential to approach conflicts with empathy and understanding. Take time to reflect on your needs and communicate them effectively with your partner."
+            ]
+          },
+          {
+            "tag": "venting_teammate",
+            "patterns": [
+              "My teammate is letting me down.",
+              "I can't believe how unreliable my partner is.",
+              "I'm frustrated with my project group member."
+            ],
+            "responses": [
+              "Working with unreliable teammates can be frustrating. It's important to communicate your expectations clearly and collaborate to find solutions to any challenges you're facing.",
+              "Feeling frustrated with a teammate is common, but it's essential to maintain professionalism and address the issue constructively. Have you considered scheduling a team meeting to discuss your concerns?",
+              "Dealing with uncooperative teammates can be challenging, but it's important to focus on finding ways to work together effectively. Consider reaching out to your project manager or team leader for guidance and support."
+            ]
+          },
+          {
+            "tag": "happy",
+            "patterns": ["Happy", "Feeling happy", "Joyful", "Delighted"],
+            "responses": [
+              "I'm glad to hear that you're feeling happy! What's brought on this joy?",
+              "Happiness is contagious! It's always nice to hear when someone's feeling joyful."
+            ]
+          },
+        {
+            "tag": "transportation",
+            "patterns": [
+                "transportation",
+                "public transportation",
+                "private transportation",
+                "transportation infrastructure",
+                "urban transportation"
+            ],
+            "responses": [
+                "Transportation plays a crucial role in connecting people, goods, and services across different locations.",
+                "From public transit systems to personal vehicles, there are various modes of transportation available to meet different needs and preferences.",
+                "Efficient transportation infrastructure is essential for supporting economic growth, mobility, and sustainable development."
+            ]
+        },
+        {
+            "tag": "public_transportation",
+            "patterns": [
+                "public transportation",
+                "bus",
+                "subway",
+                "train",
+                "tram",
+                "light rail"
+            ],
+            "responses": [
+                "Public transportation systems provide affordable, convenient, and environmentally friendly options for traveling within cities and regions.",
+                "Modes of public transportation include buses, subways, trains, trams, and light rail systems, each offering unique benefits and coverage areas.",
+                "Investments in public transportation infrastructure are essential for reducing traffic congestion, improving air quality, and promoting equitable access to transportation services."
+            ]
+        },
+        {
+            "tag": "congratulations",
+            "patterns": ["My exam passed!", "I reached my goal", "Achieved my objective", "Accomplished what I wanted", "Made it to my target"],
+            "responses": ["Congratulations! That's fantastic news!", "Wow, that's amazing! Congratulations on reaching your goal!", "Way to go! You did it! Congratulations!"]
+          },
+          {
+            "tag": "consolation",
+            "patterns": ["My exam failed again", "Failed my exam", "Didn't pass the test", "Didn't do well on my exam"],
+            "responses": ["I'm sorry to hear that. Failing an exam can be tough, but remember, it's just one setback. You'll bounce back stronger!", "I understand how disappointing that can be. Remember, failure is a stepping stone to success. Keep your head up!", "I'm here for you. Failing an exam doesn't define your worth. Use it as motivation to improve and grow."]
+          },
+          {
+            "tag": "lost_valuables",
+            "patterns": ["Lost my phone", "My phone disappeared", "Can't find my wallet", "Misplaced my keys"],
+            "responses": ["I'm sorry to hear that. Losing valuables can be stressful. Let's take a deep breath and think about where you last had them. I'm here to help you brainstorm solutions.", "Losing something important can be frustrating. Let's work together to retrace your steps and hopefully find your valuables.", "I understand how upsetting it can be to lose something valuable. Let's stay positive and retrace your steps. We'll figure this out together!"]
+          },
+          {
+            "tag": "encouragement",
+            "patterns": ["Feeling down after failing my exam", "Need some encouragement after failing my test", "Struggling with my grades"],
+            "responses": ["It's okay to feel down after failing an exam. Remember, you're not alone. Take some time to process your emotions, and then let's work on a plan to bounce back!", "Failing a test can be tough, but it's not the end of the world. You have the strength to overcome this setback and come back stronger!", "You're capable of achieving great things, even if you stumble along the way. Let's focus on your strengths and work towards improvement."]
+          },
+          {
+            "tag": "goal_reached",
+            "patterns": ["Finally reached my goal", "Reached my milestone", "I'm so proud of myself"],
+            "responses": ["That's wonderful! You must be so proud of yourself!", "Hooray! You reached your goal! That's a fantastic achievement!", "I'm thrilled for you! Congratulations on reaching your milestone!"]
+          },
+          {
+            "tag": "angry",
+            "patterns": ["I'm angry", "Feeling furious", "Can't contain my anger", "So frustrated right now"],
+            "responses": ["I understand that you're feeling angry. It's okay to feel this way. Take a moment to breathe deeply and try to identify what's causing your anger. I'm here to listen and support you.", "Anger is a natural emotion, but it's important to manage it constructively. Take a deep breath and try to focus on finding a solution to what's bothering you. I'm here to help if you need to talk it out.", "I'm sorry to hear that you're feeling angry. Let's work together to figure out what's triggering this emotion and how we can address it. Remember, you're not alone in this."]
+          },
+          {
+            "tag": "venting",
+            "patterns": ["Need to vent", "Just need to express my anger", "Feeling really upset"],
+            "responses": ["I'm here to listen if you need to vent. Sometimes, expressing your feelings can help relieve some of the tension. Take your time, and feel free to share what's on your mind.", "It's important to acknowledge and express your emotions. If you need to vent, I'm here to lend an ear. Let it all out, and know that I'm here to support you.", "Venting can be a healthy way to release pent-up emotions. Feel free to express yourself, and I'll be here to listen and offer support whenever you need it."]
+          },
+          {
+            "tag": "energy",
+            "patterns": ["energetic", "So pumped up", "Full of energy today", "Ready to take on the world"],
+            "responses": ["That's great to hear! Harness that energy and channel it into something positive. What exciting things do you have planned for today?", "You sound really energized! Embrace that feeling and make the most of it. Remember to take breaks when needed and enjoy the moment.", "Feeling energized is such a fantastic mood! Use that energy to tackle your tasks with enthusiasm and optimism. You've got this!"]
+          },
+          {
+            "tag": "work_day",
+            "patterns": ["Just got back from work", "Finished work for the day", "Work was exhausting"],
+            "responses": ["Welcome back! How was your day?", "Hope your day went well!"],
+            "context": ""
+          },
+          {
+            "tag": "rough_start",
+            "patterns": ["Rough start", "Tough beginning"],
+            "responses": ["I'm sorry to hear that. Hopefully, things improve!", "Hang in there! It can only get better from here."],
+            "context": ""
+          },
+          {
+            "tag": "productive_day",
+            "patterns": ["Productive meeting", "Made progress", "Successful day"],
+            "responses": ["That's fantastic news! Sounds like a great day! Do you want to talk about it?", "Awesome! Celebrate those wins! Do you want to talk about it?"],
+            "context": ""
+          },
+          {
+            "tag": "positive_emotion",
+            "patterns": ["Feel energized", "Feeling motivated", "In a good mood"],
+            "responses": ["Great to hear! Let's keep that positivity going!", "That's the spirit! Keep the momentum going!"],
+            "context": ""
+          },
+          {
+            "tag": "excitement",
+            "patterns": ["I'm excited", "Can't wait", "Feeling thrilled", "Excited for the weekend"],
+            "responses": ["I can sense your excitement! It's contagious! What's got you feeling so thrilled? Share your excitement with me!", "Excitement is a wonderful feeling! It's like a burst of positive energy. What's got you feeling so pumped up? Let's celebrate together!", "That's fantastic! It's always wonderful to feel excited about something. What's making you feel this way? I'd love to share in your excitement!"]
+          },
+        {
+            "tag": "private_transportation",
+            "patterns": [
+                "private transportation",
+                "car",
+                "motorcycle",
+                "bicycle",
+                "scooter",
+                "ride-sharing"
+            ],
+            "responses": [
+                "Private transportation options provide flexibility and convenience for individuals and families to travel according to their schedules and preferences.",
+                "Common modes of private transportation include cars, motorcycles, bicycles, scooters, and ride-sharing services like Uber and Lyft.",
+                "Advancements in electric vehicles and autonomous driving technology are shaping the future of private transportation, making it more sustainable and efficient."
+            ]
+        },
+        {
+            "tag": "transportation_technology",
+            "patterns": [
+                "transportation technology",
+                "autonomous vehicles",
+                "electric vehicles",
+                "smart transportation",
+                "traffic management"
+            ],
+            "responses": [
+                "Transportation technology innovations are transforming the way people and goods move around the world.",
+                "Autonomous vehicles, electric vehicles, and smart transportation systems are revolutionizing the way we commute, reducing emissions, and enhancing safety.",
+                "Effective traffic management solutions, such as intelligent transportation systems and congestion pricing, help optimize traffic flow and reduce travel times in urban areas."
+            ]
+        },
+        {
+            "tag": "sustainable_transportation",
+            "patterns": [
+                "sustainable transportation",
+                "green transportation",
+                "bike lanes",
+                "walking paths",
+                "public bike-sharing",
+                "electric scooters"
+            ],
+            "responses": [
+                "Sustainable transportation practices aim to minimize environmental impact while promoting accessibility, efficiency, and safety.",
+                "Investments in bike lanes, walking paths, public bike-sharing programs, and electric scooters contribute to reducing greenhouse gas emissions and promoting active lifestyles.",
+                "Cities and communities around the world are embracing sustainable transportation initiatives to create cleaner, healthier, and more livable environments for residents and visitors."
+            ]
+        },
+        {
+            "tag": "food_info",
+            "patterns": [
+                "food",
+                "cuisine",
+                "dishes",
+                "gastronomy",
+                "food culture"
+            ],
+            "responses": [
+                "Food is any substance consumed to provide nutritional support for an organism.",
+                "Cuisine refers to a style or method of cooking, especially as characteristic of a particular country, region, or establishment.",
+                "Dishes are specific food preparations that are cooked and served as part of a meal.",
+                "Gastronomy is the study of the relationship between food and culture, art of preparing and serving rich or delicate and appetizing food."
+            ]
+        },
+        {
+            "tag": "types_of_food",
+            "patterns": [
+                "types of food",
+                "kinds of food",
+                "categories of food",
+                "varieties of food"
+            ],
+            "responses": [
+                "There are numerous types of food, including fruits, vegetables, grains, meats, dairy products, and more.",
+                "Common categories of food include fruits, vegetables, grains (such as rice, wheat, oats), protein sources (meat, fish, beans), dairy products, and fats/oils.",
+                "Food can also be classified based on cultural or dietary preferences, such as vegetarian, vegan, gluten-free, and organic."
+            ]
+        },
+        {
+            "tag": "popular_dishes",
+            "patterns": [
+                "popular dishes",
+                "famous food",
+                "iconic dishes",
+                "traditional cuisine"
+            ],
+            "responses": [
+                "Every culture and region has its own set of iconic dishes and traditional cuisine.",
+                "Some examples of popular dishes include pizza (Italy), sushi (Japan), tacos (Mexico), curry (India), burgers (USA), paella (Spain), and more.",
+                "These dishes often reflect the cultural heritage, culinary traditions, and local ingredients of the respective regions."
+            ]
+        },
+        {
+            "tag": "cooking_techniques",
+            "patterns": [
+                "cooking techniques",
+                "culinary methods",
+                "food preparation",
+                "cookery"
+            ],
+            "responses": [
+                "Cooking techniques refer to the methods and processes used to prepare and cook food.",
+                "Common cooking techniques include grilling, roasting, baking, frying, boiling, steaming, sautéing, braising, and simmering.",
+                "Different cuisines and dishes may require specific cooking techniques to achieve desired flavors, textures, and appearances."
+            ]
+        },
+        {
+            "tag": "nutrition",
+            "patterns": [
+                "nutrition",
+                "healthy eating",
+                "nutritious food",
+                "dietary guidelines"
+            ],
+            "responses": [
+                "Nutrition is the science that interprets the interaction of nutrients and other substances in food in relation to maintenance, growth, reproduction, health, and disease of an organism.",
+                "Healthy eating involves consuming a balanced diet that provides essential nutrients, vitamins, and minerals to support overall health and well-being.",
+                "Dietary guidelines recommend a variety of foods from different food groups, moderation in portion sizes, and limitation of certain ingredients like added sugars, salt, and saturated fats."
+            ]
+        },
+        {
+            "tag": "malay_cuisine",
+            "patterns": [
+                "Malay cuisine",
+                "Malay food recommendations",
+                "What to eat in Malay cuisine",
+                "Malay dishes"
+            ],
+            "responses": [
+                "Nasi Lemak: Fragrant coconut rice served with sambal, fried anchovies, sliced cucumbers, and hard-boiled eggs.",
+                "Rendang: A flavorful beef stew cooked in coconut milk and spices until tender and aromatic.",
+                "Satay: Grilled skewered meat served with peanut sauce, cucumber slices, and ketupat (compressed rice cakes).",
+                "Laksa: Spicy noodle soup with a coconut-based broth, topped with shrimp, tofu, and bean sprouts.",
+                "Roti Canai: Flaky, crispy flatbread served with a variety of curry dips."
+            ]
+        },
+        {
+            "tag": "chinese_cuisine",
+            "patterns": [
+                "Chinese cuisine",
+                "Chinese food recommendations",
+                "What to eat in Chinese cuisine",
+                "Chinese dishes"
+            ],
+            "responses": [
+                "Peking Duck: Crispy roasted duck served with pancakes, hoisin sauce, and scallions.",
+                "Kung Pao Chicken: Stir-fried chicken with peanuts, vegetables, and chili peppers in a spicy sauce.",
+                "Dim Sum: Bite-sized portions of dumplings, buns, and other small dishes served with tea.",
+                "Mapo Tofu: Spicy tofu dish cooked with minced meat, chili bean paste, and Sichuan peppercorns.",
+                "Sweet and Sour Pork: Crispy pork pieces tossed in a tangy sauce with bell peppers, pineapple, and onions."
+            ]
+        },
+        {
+            "tag": "indian_cuisine",
+            "patterns": [
+                "Indian cuisine",
+                "Indian food recommendations",
+                "What to eat in Indian cuisine",
+                "Indian dishes"
+            ],
+            "responses": [
+                "Butter Chicken: Tender chicken cooked in a rich and creamy tomato-based sauce with butter and spices.",
+                "Biryani: Fragrant rice dish cooked with meat (such as chicken, lamb, or shrimp), spices, and herbs.",
+                "Masala Dosa: Thin and crispy fermented crepe filled with a spicy potato mixture, served with chutney and sambar.",
+                "Palak Paneer: Creamy spinach curry with chunks of paneer (Indian cottage cheese), flavored with garlic, ginger, and spices.",
+                "Rogan Josh: Aromatic lamb curry cooked with yogurt, tomatoes, onions, and a blend of Kashmiri spices."
+            ]
+        },
+        {
+            "tag": "technology_courses",
+            "patterns": [
+                "Technology courses",
+                "Trending tech courses",
+                "What tech courses to study",
+                "Popular technology courses"
+            ],
+            "responses": [
+                "Data Science: Learn data analysis, machine learning, and data visualization techniques.",
+                "Web Development: Master frontend and backend web development technologies such as HTML/CSS, JavaScript, and Python frameworks.",
+                "Artificial Intelligence: Explore AI concepts, algorithms, and applications in fields like natural language processing and computer vision.",
+                "Cybersecurity: Gain skills in ethical hacking, network security, and digital forensics to protect against cyber threats.",
+                "Cloud Computing: Learn about cloud platforms like AWS, Azure, and Google Cloud for scalable and flexible computing solutions."
+            ]
+        },
+        {
+            "tag": "business_courses",
+            "patterns": [
+                "Business courses",
+                "Trending business courses",
+                "What business courses to study",
+                "Popular business courses"
+            ],
+            "responses": [
+                "Entrepreneurship: Develop skills in business planning, marketing, and financial management to launch and grow successful ventures.",
+                "MBA (Master of Business Administration): Gain a comprehensive understanding of business operations, strategy, and leadership.",
+                "Digital Marketing: Learn to leverage digital channels for branding, advertising, and customer engagement.",
+                "Project Management: Acquire skills in project planning, execution, and team management to deliver successful projects on time and within budget.",
+                "Financial Modeling: Master financial analysis and forecasting techniques using spreadsheets and financial modeling software."
+            ]
+        },
+        {
+            "tag": "creative_courses",
+            "patterns": [
+                "Creative courses",
+                "Trending creative courses",
+                "What creative courses to study",
+                "Popular creative courses"
+            ],
+            "responses": [
+                "Graphic Design: Develop skills in visual communication, typography, and layout design using industry-standard software.",
+                "Photography: Learn photography techniques, composition, and editing to capture stunning images and tell visual stories.",
+                "Film Production: Explore filmmaking processes, from scriptwriting and directing to cinematography and post-production editing.",
+                "UX/UI Design: Gain expertise in user experience (UX) and user interface (UI) design to create intuitive and visually appealing digital products.",
+                "Creative Writing: Hone your storytelling skills across various genres such as fiction, nonfiction, poetry, and screenwriting."
+            ]
+        }
+]

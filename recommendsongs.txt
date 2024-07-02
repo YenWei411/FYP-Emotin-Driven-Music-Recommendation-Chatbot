@@ -1,0 +1,23 @@
+EmoTune: I have analyze your emotion as Happy
+
+Here are some songs that matches your feelings
+- Hot Air Balloon by ['Owl City']
+
+- I Don't Want To Go Home by ['Southside Johnny And The Asbury Jukes']
+
+- Flagrante by ['Moura Andrade e Andrezinho']
+
+- Sweet Carrie by ['Dailey & Vincent']
+
+- Help Me, Rhonda (Mono) by ['The Beach Boys']
+
+- Often - Kygo Remix by ['The Weeknd', 'Kygo']
+
+- The Way It Was by ['The Killers']
+
+- South Bronx by ['Boogie Down Productions']
+
+- I Wonder What She's Doing Tonight? by ['Tommy Boyce', 'Bobby Hart']
+
+- Black Country Rock - 2015 Remaster by ['David Bowie']
+
